@@ -30,7 +30,6 @@ const Delight = ({ name, onDragComplete }) => {
 
   return (
     <div
-      key={name}
       ref={drop}
       style={{
         border: 'solid 1px black',
